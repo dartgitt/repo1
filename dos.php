@@ -1,5 +1,7 @@
 <?php
-        echo "<h1>Bienvenido a App II</h1>";
+        echo "<h1>Bienvenidos a App I</h1>";
         echo "<br>";
-        echo "<a href='index.php'>Haz click para ir a App I</a>";
+        echo "<a href='dos.php'>Haz click para ir a dos.php</a>";
+        echo "<br>";
+        echo "<a href='tres.php'>Haz click para ir a tres.php</a>";
 ?>
