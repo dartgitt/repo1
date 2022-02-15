@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Verificando Docker'){
          steps{
-            sh 'docker images'
+            sh 'sudo docker images'
          }
       }
    }
