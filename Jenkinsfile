@@ -3,7 +3,12 @@ pipeline {
    stages{
       stage('Paso 1'){
          steps{
-             echo 'Paso 1'
+            sh 'echo Paso 1'
+         }
+      }
+      stage('Verificando Docker'){
+         steps{
+            sh 'docker images'
          }
       }
    }
