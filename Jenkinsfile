@@ -5,11 +5,5 @@ pipeline {
          steps{
             sh 'echo Paso 1'
          }
-      }
-      stage('Verificando Docker'){
-         steps{
-            sh 'sudo docker images'
-         }
-      }
    }
 }
